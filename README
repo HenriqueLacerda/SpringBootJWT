@@ -1,0 +1,12 @@
+SPRING BOOT + JWT
+
+PROJETO DE TESTE DE AUTENTICAÇÃO
+
+O projeto é um teste para autenticação com SpringBoot + JWT
+Utilizando:
+    - Spring Boot Web para criação das APIs REST
+    - Spring Boot Data JPA para gerenciamento do banco de dados
+    - Spring Boot Security para gerenciamento do usuário e autenticação
+
+
+.
