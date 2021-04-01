@@ -17,7 +17,7 @@ public class ClienteController {
 
     private final ClienteService clienteService;
     // Add for teste
-    //
+
     @GetMapping
     public ResponseEntity<List<Cliente>> listAll() {
         return new ResponseEntity<>(clienteService.listAll(), HttpStatus.OK);
