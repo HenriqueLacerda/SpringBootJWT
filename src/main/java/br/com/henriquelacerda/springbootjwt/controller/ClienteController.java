@@ -17,6 +17,7 @@ public class ClienteController {
 
     private final ClienteService clienteService;
     // Add for teste
+    // Nova Feature
     //
     @GetMapping
     public ResponseEntity<List<Cliente>> listAll() {
