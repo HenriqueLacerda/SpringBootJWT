@@ -20,7 +20,7 @@ public class ClienteService {
         return clienteRepository.findAll();
     }
 
-    public Cliente findById(long id){
+    public Cliente findById(long id) {
         return clienteRepository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.BAD_REQUEST, "Cliente não encontrado"));
     }
 

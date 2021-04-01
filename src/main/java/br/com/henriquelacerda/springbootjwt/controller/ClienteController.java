@@ -16,12 +16,12 @@ import java.util.List;
 public class ClienteController {
 
     private final ClienteService clienteService;
+    // Add for teste
 
     @GetMapping
     public ResponseEntity<List<Cliente>> listAll() {
         return new ResponseEntity<>(clienteService.listAll(), HttpStatus.OK);
     }
-
 
     @GetMapping("/{id}")
     public ResponseEntity<Cliente> findById(@RequestParam long id) {
